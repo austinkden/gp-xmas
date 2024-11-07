@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Unkempt:wght@400;700&display=swap');
+
+* {
+    font-family: 'Mountains of Christmas', serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(18, 86, 18), rgb(173, 22, 22));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 10vw;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    font-family: 'Unkempt', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+}
