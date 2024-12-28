@@ -11,7 +11,5 @@ const hoursUntilTarget = Math.ceil(timeDifference / (1000 * 60 * 60));
 const daysUntilTarget = Math.floor(hoursUntilTarget / 24);
 const hours = hoursUntilTarget % 24;
 
-console.log(`Time until December 26th at 5 PM: ${daysUntilTarget} days and ${hours} hours`);
-
 const p = document.getElementById("toUpdate");
 p.innerHTML = `See you in ${daysUntilTarget} days and ${hours} hours!`;
